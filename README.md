@@ -80,4 +80,18 @@ termux-adb shell settings put secure enabled_accessibility_services bitpit.launc
 <br>
 
 
+> adb shell pidof com.example.app
+```bash
+adb shell pidof com.example.app
+```
+> Memfilter Berdasarkan PID (Lebih Akurat). Cara ini paling akurat karena hanya menampilkan log yang dihasilkan oleh aplikasi Anda (bukan sekadar baris log yang mengandung nama package).
+<br>
+
+
+> termux-adb logcat --pid=<PID_DARI_LANGKAH_1>
+```bash
+termux-adb logcat --pid=<PID_DARI_LANGKAH_1>
+```
+>
+<br>
 
