@@ -1,8 +1,24 @@
 # eucalypsih_rcrapsbash_adb
 
-> termux-adb shell pm disable-user --user 0 <NAMA_PAKET>
+>
 ```bash
-termux-adb shell pm disable-user --user 0 <NAMA_PAKET>
+
+```
+>
+<br>
+
+
+> termux-adb shell am force-stop com.whatsapp
+```bash
+termux-adb shell am force-stop com.whatsapp
+```
+>
+<br>
+
+
+> termux-adb shell pm disable-user --user 0 com.whatsapp
+```bash
+termux-adb shell pm disable-user --user 0 com.whatsapp
 ```
 > Menonaktifkan Aplikasi (Disable). Jika ingin menghentikan dan mencegah aplikasi berjalan kembali (lebih kuat dari force stop)
 <br>
