@@ -38,3 +38,11 @@ termux-adb shell am start -S <NAMA_PAKET>
 ```
 > Membuka Aplikasi sambil Memaksa Berhenti (Reset) Pertama. Perintah ini menutup aplikasi terlebih dahulu, lalu membukanya kembali.
 <br>
+
+
+> termux-adb shell dumpsys accessibility
+```bash
+termux-adb shell dumpsys accessibility
+```
+>
+<br>
