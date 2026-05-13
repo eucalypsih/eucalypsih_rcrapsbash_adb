@@ -138,6 +138,15 @@ com.rarlab.rar/com.rarlab.rar.MainActivity
 ```bash
 https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 ```
+<br>
+
+
+> [Cara Membuat Flashable ZIP di Android | PDF](https://id.scribd.com/document/367457577/Materi)
+```bash
+[Cara Membuat Flashable ZIP di Android | PDF](https://id.scribd.com/document/367457577/Materi)
+```
+<br>
+
 
 
 
