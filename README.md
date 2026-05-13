@@ -95,3 +95,30 @@ termux-adb logcat --pid=<PID_DARI_LANGKAH_1>
 >
 <br>
 
+
+> termux-adb uninstall -k <nama.package.aplikasi>
+```bash
+termux-adb uninstall -k <nama.package.aplikasi>
+```
+> Menghapus Aplikasi Tanpa Menghapus Data (Keep Data)
+<br>
+
+
+> termux-adb shell pm clear <nama.package.aplikasi>
+```bash
+termux-adb shell pm clear <nama.package.aplikasi>
+```
+> Menghapus Data & Cache Aplikasi (Clear Data)
+<br>
+
+
+> adb shell dumpsys window displays | grep -E "mCurrentFocus"
+```bash
+adb shell dumpsys window displays | grep -E "mCurrentFocus"
+```
+> Menemukan Nama Package. Jika Anda tidak tahu nama lengkap paket aplikasi (misal: com.android.chrome), gunakan perintah ini saat aplikasi terbuka di HP untuk mengetahuinya.
+<br>
+
+
+
+
