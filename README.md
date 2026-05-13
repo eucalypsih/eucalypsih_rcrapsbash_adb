@@ -8,17 +8,25 @@
 <br>
 
 
-> termux-adb shell am force-stop com.whatsapp
+> termux-adb shell pm list packages | grep gms
 ```bash
-termux-adb shell am force-stop com.whatsapp
+termux-adb shell pm list packages | grep gms
 ```
 >
 <br>
 
 
-> termux-adb shell pm disable-user --user 0 com.whatsapp
+> termux-adb shell am force-stop com.google.android.gms
 ```bash
-termux-adb shell pm disable-user --user 0 com.whatsapp
+termux-adb shell am force-stop com.google.android.gms
+```
+>
+<br>
+
+
+> termux-adb shell pm disable-user --user 0 com.google.android.gms
+```bash
+termux-adb shell pm disable-user --user 0 com.google.android.gms
 ```
 > Menonaktifkan Aplikasi (Disable). Jika ingin menghentikan dan mencegah aplikasi berjalan kembali (lebih kuat dari force stop)
 <br>
