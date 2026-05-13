@@ -120,5 +120,25 @@ adb shell dumpsys window displays | grep -E "mCurrentFocus"
 <br>
 
 
+> termux-adb shell dumpsys activity <package>/<activity> (informasi aktivitas) # https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
+```bash
+termux-adb shell dumpsys activity <package>/<activity> (informasi aktivitas) # https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
+```
+
+
+# package
+> com.rarlab.rar/com.rarlab.rar.MainActivity
+```bash
+com.rarlab.rar/com.rarlab.rar.MainActivity
+```
+
+
+# source
+> https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
+```bash
+https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
+```
+
+
 
 
