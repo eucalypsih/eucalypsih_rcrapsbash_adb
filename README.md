@@ -46,3 +46,30 @@ termux-adb shell dumpsys accessibility
 ```
 >
 <br>
+
+
+>termux-adb shell settings get secure enabled_accessibility_services
+```bash
+termux-adb shell settings get secure enabled_accessibility_services
+```
+>
+<br>
+
+
+> adb shell settings put secure enabled_accessibility_services <com.package.name/com.package.name.ServiceName>
+```bash
+adb shell settings put secure enabled_accessibility_services <com.package.name/com.package.name.ServiceName>
+```
+>
+<br>
+
+
+> termux-adb shell settings put secure enabled_accessibility_services bitpit.launcher/bitpit.launcher.lock_screen.LockScreenService
+```bash
+termux-adb shell settings put secure enabled_accessibility_services bitpit.launcher/bitpit.launcher.lock_screen.LockScreenService
+```
+>
+<br>
+
+
+
