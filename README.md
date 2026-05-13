@@ -56,6 +56,14 @@ termux-adb shell settings get secure enabled_accessibility_services
 <br>
 
 
+> termux-adb shell settings get secure enabled_accessibility_services
+```bash
+termux-adb shell settings get secure enabled_accessibility_services
+```
+> Memastikan Layanan Aktif. Periksa apakah layanan sudah aktif
+<br>
+
+
 > adb shell settings put secure enabled_accessibility_services <com.package.name/com.package.name.ServiceName>
 ```bash
 adb shell settings put secure enabled_accessibility_services <com.package.name/com.package.name.ServiceName>
@@ -64,9 +72,9 @@ adb shell settings put secure enabled_accessibility_services <com.package.name/c
 <br>
 
 
-> termux-adb shell settings put secure enabled_accessibility_services bitpit.launcher/bitpit.launcher.lock_screen.LockScreenService
+> termux-adb shell settings put secure enabled_accessibility_services bitpit.launcher/bitpit.launcher.lock_screen.LockScreenService:com.quickcursor/com.quickcursor.android.services.CursorAccessibilityService
 ```bash
-termux-adb shell settings put secure enabled_accessibility_services bitpit.launcher/bitpit.launcher.lock_screen.LockScreenService
+termux-adb shell settings put secure enabled_accessibility_services bitpit.launcher/bitpit.launcher.lock_screen.LockScreenService:com.quickcursor/com.quickcursor.android.services.CursorAccessibilityService
 ```
 >
 <br>
