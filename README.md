@@ -14,6 +14,22 @@
 <br>
 
 
+>
+```bash
+termux-adb disconnect
+```
+>
+<br>
+
+
+>
+```bash
+termux-adb reconnect offline
+```
+>
+<br>
+
+
 > termux-adb shell pm list packages | grep gms
 ```bash
 termux-adb shell pm list packages | grep gms
