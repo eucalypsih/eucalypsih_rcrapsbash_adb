@@ -62,6 +62,14 @@ termux-adb shell dumpsys deviceidle whitelist +bitpit.launcher
 <br>
 
 
+> termux-adb shell dumpsys deviceidle whitelist =bitpit.launcher
+```bash
+termux-adb shell dumpsys deviceidle whitelist =bitpit.launcher
+```
+> Jika outputnya true: Aplikasi sudah berada di dalam whitelist (Baterai Tidak Dioptimalkan). Jika outputnya false: Aplikasi belum masuk whitelist.
+<br>
+
+
 > termux-adb shell cmd appops set bitpit.launcher RUN_IN_BACKGROUND allow
 
 ```bash
