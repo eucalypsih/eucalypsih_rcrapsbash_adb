@@ -131,6 +131,13 @@ adb shell dumpsys window displays | grep -E "mCurrentFocus"
 termux-adb shell dumpsys activity <package>/<activity> (informasi aktivitas) # https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 ```
 
+> adb shell pm list permissions -d -f -g <nama_package>
+```bash
+adb shell pm list permissions -d -f -g <nama_package>
+```
+> List Izin Berdasarkan Package
+<br>
+
 
 # package
 > com.rarlab.rar/com.rarlab.rar.MainActivity
