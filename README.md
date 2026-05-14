@@ -54,11 +54,20 @@ termux-adb shell dumpsys accessibility
 <br>
 
 
->termux-adb shell settings get secure enabled_accessibility_services
+> termux-adb shell dumpsys deviceidle whitelist +bitpit.launcher
 ```bash
-termux-adb shell settings get secure enabled_accessibility_services
+termux-adb shell dumpsys deviceidle whitelist +bitpit.launcher
 ```
->
+> Masukkan ke Daftar Putih Manajemen Daya (Battery Optimization Whitelist). Perintah ini mengecualikan Smart Launcher dari optimasi baterai bawaan Android, sehingga sistem tidak mudah menghentikannya.
+<br>
+
+
+> termux-adb shell cmd appops set bitpit.launcher RUN_IN_BACKGROUND allow
+
+```bash
+termux-adb shell cmd appops set bitpit.launcher RUN_IN_BACKGROUND allow
+```
+> Kunci Proses Menggunakan AppOps (Jika Didukung Firmware). Beberapa ponsel UNISOC mengizinkan pengaturan mode operasi aplikasi secara paksa.
 <br>
 
 
