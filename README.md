@@ -158,6 +158,10 @@ com.rarlab.rar/com.rarlab.rar.MainActivity
 > com.google.android.gms
 > com.whatsapp android.permission.RECORD_AUDIO
 
+> sprd.permission.PROTECT_PROCESS
+> android.permission.RECORD_AUDIO
+<br>
+
 
 # source
 > https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
