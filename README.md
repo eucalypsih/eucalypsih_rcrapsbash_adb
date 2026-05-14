@@ -140,6 +140,7 @@ com.rarlab.rar/com.rarlab.rar.MainActivity
 
 > com.android.vending
 > com.google.android.gms
+> com.whatsapp android.permission.RECORD_AUDIO
 
 
 # source
