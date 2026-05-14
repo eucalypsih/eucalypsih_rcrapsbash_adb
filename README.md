@@ -138,6 +138,9 @@ termux-adb shell dumpsys activity <package>/<activity> (informasi aktivitas) # h
 com.rarlab.rar/com.rarlab.rar.MainActivity
 ```
 
+> com.android.vending
+> com.google.android.gms
+
 
 # source
 > https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
