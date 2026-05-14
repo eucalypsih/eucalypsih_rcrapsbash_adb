@@ -71,6 +71,14 @@ termux-adb shell cmd appops set bitpit.launcher RUN_IN_BACKGROUND allow
 <br>
 
 
+> termux-adb shell dumpsys deviceidle | grep -A 20 "Whitelist user apps:"
+```bash
+termux-adb shell dumpsys deviceidle | grep -A 20 "Whitelist user apps:"
+```
+> Melihat Whitelist Aplikasi Pengguna (User Apps). Menampilkan aplikasi non-sistem yang telah Anda atau sistem masukkan ke daftar putih.
+<br>
+
+
 > termux-adb shell settings get secure enabled_accessibility_services
 ```bash
 termux-adb shell settings get secure enabled_accessibility_services
